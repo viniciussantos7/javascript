@@ -1,0 +1,40 @@
+body {
+    background-color: #555;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+section {
+    background: #333;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.495);
+}
+
+#seltab {
+    display: block;
+    margin: 10px auto;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 60%;
+    height: 200px;
+}
+
+#op {
+    margin: 60% auto;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+}
