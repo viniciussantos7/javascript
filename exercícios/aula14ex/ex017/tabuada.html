@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabuada</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -13,9 +14,9 @@
 
     <section>
         <div>
-            <label for="num">Número:</label>
+            <label for="num" id="n">Número:</label>
             <input type="number" name="num" id="num">
-            <button onclick="gerar()">Gerar Tabuada</button>
+            <button onclick="gerar()" id="gt">Gerar Tabuada</button>
         </div>
         <select name="tabuada" id="seltab" size="10">
             <option>Digite um número...</option>

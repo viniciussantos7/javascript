@@ -1,40 +1,69 @@
 body {
-    background-color: #555;
-    color: white;
-    font-family: Arial, sans-serif;
-}
-
-header {
-    text-align: center;
-    font-size: 25px;
-    margin: 20px 0;
+  font: normal 23px Arial;
+  text-align: center;
+  background-color: #ffffff;
 }
 
 section {
-    background: #333;
-    width: 500px;
-    margin: auto;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.495);
+  background: white;
+  border-radius: 10px;
+  padding: 40px;
+  width: 350px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+}
+
+h1 {
+    color: #201d1d;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em
+}
+
+input[type="number"] {
+  width: 60px;
+}
+
+#num {
+    font-size: medium;
+    width: 100px;
+}
+
+#num:hover {
+    background-color: #282424;
+    color: rgb(0, 140, 255);
+}
+
+#gt {
+    font-size: medium;
+    color: #201d1d;
+}
+
+#gt:hover {
+    background-color: #201d1d;
+    color: rgb(0, 140, 255);
+
 }
 
 #seltab {
-    display: block;
-    margin: 10px auto;
-    font-size: 20px;
-    border-radius: 10px;
-    width: 60%;
-    height: 200px;
+    border-radius: 5px;
 }
 
-#op {
-    margin: 60% auto;
+option {
+    text-align: center;
+    display: block;
+}
+
+#n {
+    text-align: left;
+    color: #201d1d;
+}
+
+select {
+  width: 100%;
+  margin-top: 10px;
 }
 
 footer {
-    color: white;
-    text-align: center;
-    font-style: italic;
-    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: unset;
 }
